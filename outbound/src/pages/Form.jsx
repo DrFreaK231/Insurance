@@ -9,8 +9,11 @@ const Form = () => {
         <div className="form_page">
           <div className="passport">
             <p>PASSPORT INFORMATION (In English)</p>
-            <div>
-              <div></div>
+            <div className="passport_container">
+              <div>
+                <label htmlFor="">Passport Number</label>
+                <input type="text" name="passportNumber"/>
+              </div>
               <div></div>
               <div></div>
             </div>
